@@ -1,10 +1,11 @@
 import logging
 from slavehandler import SlaveHandler
 
+
 class dht11(SlaveHandler):
     def __init__(self):
         SlaveHandler.__init__(self)
-        
+
     def do_mount(self):
         logging.debug('do_mount')
 
